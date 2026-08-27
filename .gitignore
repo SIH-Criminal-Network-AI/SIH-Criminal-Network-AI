@@ -1,0 +1,58 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Node / Frontend
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model / ML generated files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated artifacts
+artifacts/
+outputs/
+checkpoints/
+
+# Large local datasets
+# Keep dataset files in Oracle / approved storage.
+data/raw/*
+data/processed/*
